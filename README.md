@@ -1,18 +1,19 @@
-Please find the Project Report in repo to get a detailed Document.  		
+Please find the Project Report in repo to get a detailed Document.  
+
 Financial Transaction Monitoring and Fraud Anomaly Detection using Time-Series Forecasting
 
-1. Introduction
+1. Introduction  
 Modern banking systems process a very large number of digital transactions every day. Manual monitoring of these transactions is impossible, and traditional fraud detection methods that inspect individual transactions may fail to detect coordinated abnormal activity occurring across multiple accounts. Therefore, financial institutions require automated systems capable of monitoring overall transaction behavior and identifying suspicious patterns.
 Instead of predicting whether each transaction is fraudulent, this project focuses on behavioral monitoring of the financial system. The objective is to model normal transaction activity over time and automatically detect abnormal deviations that may indicate fraud waves, coordinated withdrawals, or system misuse.
 This approach is known as predictive monitoring, where expected system behavior is learned using time-series forecasting and anomalies are identified when real activity deviates from the learned baseline.
 
-2. Objective
+2. Objective  
 The main objectives of the project are:
 	Model normal financial transaction activity over time
 	Forecast expected transaction behavior using time-series analysis
 	Detect abnormal activity automatically using anomaly detection techniques
 
-3. Dataset Description
+3. Dataset Description  
 The project uses the PaySim mobile money transaction dataset, which simulates real mobile banking transactions.
 Each row represents a single financial transaction recorded by the banking system.
 Important attributes:
